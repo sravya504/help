@@ -5,9 +5,9 @@ import { useNavigate } from 'react-router-dom';
 import { Modal } from "bootstrap";
 
 
-import img1 from "C:/Users/SRAVYA/Desktop/helping/HH_website/frontend/src/assets/innovative2.jpg";
-import img2 from "C:/Users/SRAVYA/Desktop/helping/HH_website/frontend/src/assets/innovative1.jpg";
-import img3 from "C:/Users/SRAVYA/Desktop/helping/HH_website/frontend/src/assets/innovative2.jpg";
+import img1 from "../../assets/innovative2.jpg";
+import img2 from "../../assets/innovative1.jpg";
+import img3 from "../../assets/innovative2.jpg";
 
 
 // EchoFriendly crafts and techzite expo

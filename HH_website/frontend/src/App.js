@@ -19,14 +19,14 @@ import Donation from './components/Donation';
 
 
 function AppWrapper() {
-  const location = useLocation();
-const isAdminPage = location.pathname.startsWith("/admin");
-const isLogin = location.pathname==='/admin/login'
+ 
+
+
   return (
     <>
 
       
-  {!isLogin && <Navbar />}
+  <Navbar />
 
       <Routes>
       

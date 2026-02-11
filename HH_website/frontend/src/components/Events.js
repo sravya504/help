@@ -6,7 +6,7 @@ import './Events.css';
 function Events(){
   const [showModal, setShowModal] = useState(false);
   const [selectedEvent, setSelectedEvent] = useState(null);
-  const [isNavbarOpen, setIsNavbarOpen] = useState(false);
+  // const [isNavbarOpen, setIsNavbarOpen] = useState(false);
 
   useEffect(() => {
     AOS.init({

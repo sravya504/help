@@ -186,7 +186,7 @@ export default function Certificate() {
   const [certId, setCertId] = useState("");
   const [showCertificate, setShowCertificate] = useState(false);
   const [showForm, setShowForm] = useState(false);
-  // const [preview, setPreview] = useState(null);
+  const [preview, setPreview] = useState(null);
 
   // ✅ Handle input change
   const handleChange = (e) => {

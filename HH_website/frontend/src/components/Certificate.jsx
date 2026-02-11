@@ -264,7 +264,9 @@ export default function Certificate() {
     })
     .catch((err) => {
       console.error("FAILED...", err);
+      console.log(preview)
       alert("Form submission failed. Try again.");
+      
     });
 };
 

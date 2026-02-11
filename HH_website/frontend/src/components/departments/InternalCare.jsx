@@ -7,7 +7,7 @@ import 'bootstrap/dist/js/bootstrap.bundle.min.js';
 import { Modal } from 'bootstrap';
 
 
-import img4 from "C:/Users/SRAVYA/Desktop/helping/HH_website/frontend/src/assets/Tricycle Distribution-2013 (1)(1).jpeg"
+import img4 from "../../assets/Tricycle Distribution-2013 (1)(1).jpeg"
 import { useNavigate} from 'react-router-dom';
 
 const images = [img4, img4, img4];
